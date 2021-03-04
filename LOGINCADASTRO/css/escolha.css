@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #d6ddeb; 
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  .cta,
+  .overlay__content a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #012;
+    text-decoration: none;
+  }
+  
+  
+  .cta {
+    padding: 9px 35px;
+    margin-left: 600px;
+    margin-right: 20px;
+    background-color: #f7f7f7;
+    border: none;
+    border: solid #d6ddeb;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+    font-weight: bold;
+  }
+  
+  .cta:hover {
+    background-color:#ffff ;
+    border: 2px solid rgb(96, 134, 172);
+    color: rgb(96, 134, 172);
+  }
+  
+  .abc,
+  .overlay__content a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-weight: 500;
+    color: #012;
+    text-decoration: none;
+  }
+  
+  
+  .abc {
+    padding: 9px 25px;
+    background-color: #f7f7f7;
+    border: none;
+    border: solid #d6ddeb;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+    font-weight: bold;
+  }
+  
+  .abc:hover {
+    background-color:#ffff ;
+    border: 2px solid rgb(96, 134, 172);
+    color: rgb(96, 134, 172);
+  }
+
+  .title-second{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+  }
+
+    .linguagens{
+      color: #012;
+      position: absolute;
+      margin-left: 55%; 
+      display:inline-block;
+      margin-bottom: 50%;
+      text-decoration: none;
+      padding: 110px 55px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      background-color: #f7f7f7;
+      border: none;
+      border: solid #d6ddeb;
+      cursor: pointer;
+      transition: background-color 0.3s ease 0s;
+    }
+    
+    .linguagens:hover {
+      background-color:#ffff ;
+      border: 2px solid rgb(96, 134, 172);
+      color: rgb(96, 134, 172);}
+
+      .exatas{
+        color: #012;
+        position: absolute;
+        margin-left: 25%;
+        display:inline-block;
+        margin-bottom: 50%;
+        text-decoration: none;
+        padding: 110px 80px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: #f7f7f7;
+        border: none;
+        border: solid #d6ddeb;
+        cursor: pointer;
+        transition: background-color 0.3s ease 0s;
+      }
+      
+      .exatas:hover {
+        background-color:#ffff ;
+        border: 2px solid rgb(96, 134, 172);
+        color: rgb(96, 134, 172);}
+
+      .humanas{
+        color: #012;
+        position: absolute;
+        margin-right: 5%;
+        margin-left: 10%;
+        display:inline-block;
+        margin-bottom: 50%;
+        text-decoration: none;
+        padding: 110px 70px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: #f7f7f7;
+        border: none;
+        border: solid #d6ddeb;
+        cursor: pointer;
+        transition: background-color 0.3s ease 0s;
+        }
+        
+      .humanas:hover {
+          background-color:#ffff ;
+          border: 2px solid rgb(96, 134, 172);
+          color: rgb(96, 134, 172);}
+
+      .biologicas{
+          color: #012;
+          position: absolute;
+          margin-left: 40%;
+          position: absolute;
+          display:inline-block;
+          margin-bottom: 50%;
+          text-decoration: none;
+          padding: 110px 55px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+          font-size: 20px;
+          background-color: #f7f7f7;
+          border: none;
+          border: solid #d6ddeb;
+          cursor: pointer;
+          transition: background-color 0.3s ease 0s;
+            }
+            
+        .biologicas:hover {
+            background-color:#ffff ;
+            border: 2px solid rgb(96, 134, 172);
+            color: rgb(96, 134, 172);}
+          
+  
+  
+  @media only screen and (max-width: 800px) {
+
+    .cta {
+      display: none;
+    }
+  }
+  
