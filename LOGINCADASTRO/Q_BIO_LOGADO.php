@@ -14,7 +14,6 @@ session_start();
         <title>Biológicas</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/bio1.css">
 		<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
