@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #d6ddeb; 
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  .cta,
+  .overlay__content a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #012;
+    text-decoration: none;
+  }
+  
+  .cta {
+    padding: 9px 35px;
+    margin-left: 600px;
+    margin-right: 20px;
+    background-color: #f7f7f7;
+    border: none;
+    border: solid #d6ddeb;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+    font-weight: bold;
+  }
+  
+  .cta:hover {
+    background-color:#ffff ;
+    border: 2px solid rgb(96, 134, 172);
+    color: rgb(96, 134, 172);
+  }
+  
+  .abc,
+  .overlay__content a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-weight: 500;
+    color: #012;
+    text-decoration: none;
+  }
+  
+  
+  .abc {
+    padding: 9px 45px;
+    background-color: #f7f7f7;
+    border: none;
+    border: solid #d6ddeb;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+    font-weight: bold;
+  }
+  
+  .abc:hover {
+    background-color:#ffff ;
+    border: 2px solid rgb(96, 134, 172);
+    color: rgb(96, 134, 172);
+  }
+
+  .title-second{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 46%;
+  }
+  .box{
+    display: flex;
+     justify-content: center;
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+  form{
+    padding: 20px;
+}
+.email{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.Enviar{ 
+font-family: 'Montserrat', sans-serif;
+display: inline-block;
+border: none;
+text-decoration: none;
+cursor: pointer;
+outline: none;
+font-weight: bolder;
+font-size: 20px;
+width: 250px;
+height: 55px;
+color: white;
+border-radius: 10%;
+background-color: seagreen;
+}
+.Enviar:active {
+  transform: translateY(6px);
+}
+  .Enviar:hover {
+    background-color: rgb(71, 214, 147);
+  }
+  .alternativa{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    color: #012;
+    text-decoration: none;
+  }
+  .Numeroquestao{
+    font-size: 40px;
+  }
+  .linha{
+    margin-top: 10px;
+    height: 10px;
+    background-color: rgb(122, 139, 160);
+  }
+  .enunciado{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    padding-top: 120px;
+    padding-bottom: 10px;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+.aa{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+  text-align: justify;
+}
+  
+  

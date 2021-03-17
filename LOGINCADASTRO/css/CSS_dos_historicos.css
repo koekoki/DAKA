@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #d6ddeb; 
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  .cta,
+  .overlay__content a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #012;
+    text-decoration: none;
+  }
+  
+  .cta {
+    padding: 9px 35px;
+    margin-left: 600px;
+    margin-right: 20px;
+    background-color: #f7f7f7;
+    border: none;
+    border: solid #d6ddeb;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+    font-weight: bold;
+  }
+  
+  .cta:hover {
+    background-color:#ffff ;
+    border: 2px solid rgb(96, 134, 172);
+    color: rgb(96, 134, 172);
+  }
+  
+  .abc,
+  .overlay__content a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-weight: 500;
+    color: #012;
+    text-decoration: none;
+  }
+  
+  
+  .abc {
+    padding: 9px 45px;
+    background-color: #f7f7f7;
+    border: none;
+    border: solid #d6ddeb;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+    font-weight: bold;
+  }
+  
+  .abc:hover {
+    background-color:#ffff ;
+    border: 2px solid rgb(96, 134, 172);
+    color: rgb(96, 134, 172);
+  }
+
+  .title-second{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 46%;
+  }
+  .container{
+      display: flex;
+      justify-content: center;
+  }
+
+  .box{
+    background-color: #d6ddeb;
+    width: 60%;
+    height: 100%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: whitesmoke;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+  }
+  .email{
+ 
+  }
+  .EnunciadoAcertou{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding-top: 80px;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-width: 1px;
+    background-color: rgb(178, 224, 178);
+    border-style: solid;
+    border-radius: 30px;
+    margin: 20px;
+  }
+  .EnunciadoErrou{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding-top: 80px;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-width: 1px;
+    background-color: rgb(207, 149, 149);
+    border-style: solid;
+    border-radius: 30px;
+    margin: 20px;
+  }
+  .total{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-align: center;
+  }
+  .Acertou{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }

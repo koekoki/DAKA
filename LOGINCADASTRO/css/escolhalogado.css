@@ -3,10 +3,13 @@
     margin: 0;
     padding: 0;
   }
+  body{
+    width: 100%;
+  }
   
   header {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     padding: 30px 10%;
     background-color: #d6ddeb; 
@@ -94,7 +97,9 @@
       cursor: pointer;
       transition: background-color 0.3s ease 0s;
     }
-    
+    .email{
+      font-size: 20px;
+    }
     .linguagens:hover {
       background-color:#ffff ;
       border: 2px solid rgb(96, 134, 172);

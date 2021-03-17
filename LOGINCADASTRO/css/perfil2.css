@@ -5,52 +5,56 @@
 }
 
 body{
-  background-image: url("../css/wallpaper1.png");
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position:center;
   height: 100vh;
   font-family: 'Montserrat', sans-serif;
 }
 
 
-.sidebar{
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: #d6ddeb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute; 
+}
+.box{
   width: 35%;
   height: 100%;
-  position: fixed;
   background-color: white;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
 }
-
-.sidebar-pos{
-  text-align: center;
-  position: absolute;
-  top: 60px;
-  transform: translateY(-60);
-  
+.round{
+  border-radius: 100%;
+  overflow: hidden;
+  height: 100px;
+  width:100px;
+  background: black;
 }
 .img-sidebar{
   text-align: center;
+  padding: 25px;
+  height: 300px;
+  
 }
 .img-sidebar img{
-  width: 40%;
-  border-radius: 50%;
-  
+ width: 100%;
 }
 .nome{
   padding: 30px;
   font-weight: 800;
   font-size: 25px;
 }
-.email{
+.minibox{
   padding-top: 5px;
   padding-left: 60px;
   padding-right: 60px;
+  height: 20em;
+  
 }
-.email > label{
+.minibox > label{
     width: 100%;
     display: block;
     padding: 10px;
@@ -100,8 +104,6 @@ button{
     transform: translateY(4px);
   }
 .Salvar{
-  top: 610px;
-  right: 20px;
   font-weight: bold;
   width: 120px;
   height: 55px;
@@ -109,12 +111,9 @@ button{
   border-style: solid;
   border-color: seagreen; 
   border-radius: 10%;
-  position: absolute;
   background-color: white;
 }
 .Excluir{
-  top: 610px;
-  right: 400px;
   font-weight: bold;
   width: 120px;
   height: 55px;
@@ -122,13 +121,10 @@ button{
   border-style: solid;
   border-color: red; 
   border-radius: 10%;
-  position: absolute;
   background-color: white;
 }
 
 .Cancelar{
-  top: 610px;
-  right: 210px;
   font-weight: bold;
   background-color: white;
   width: 120px;
@@ -137,5 +133,9 @@ button{
   border-color: black;   
   border-width: 2px;
   border-radius: 10%;
-  position: absolute;
+}
+.box-button{
+  display: flex;
+  padding-top: 10em;
+  justify-content: space-around;
 }

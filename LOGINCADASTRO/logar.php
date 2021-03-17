@@ -6,7 +6,6 @@ if(empty($_POST['email']) || empty($_POST['senha'])) {
 	header('Location: loginnao.php');
 	exit();
 }
- 
 $email = mysqli_real_escape_string($connect, $_POST['email']);
 $senha = mysqli_real_escape_string($connect, $_POST['senha']);
  
@@ -16,6 +15,8 @@ $result = mysqli_query($connect, $query);
  
 $row = mysqli_num_rows($result);
  
+
+
 if($row == 1) {
 	$_SESSION['Email'] = $email;
 	header('Location: escolhalogado.php');

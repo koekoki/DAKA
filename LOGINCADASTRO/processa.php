@@ -6,6 +6,8 @@ $nome = $_POST ['nome'];
 $email = $_POST ['email'];
 $senha = $_POST['senha'];
 $confsenha = $_POST['confsenha'];
+
+
 ?>
 
 <html lang="pt-br">
